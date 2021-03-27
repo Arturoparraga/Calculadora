@@ -1,0 +1,1 @@
+Este es un programa que simula una calculadora, puedes sumar, restar, multiplicar, dividir y hacer raices cuadradas
