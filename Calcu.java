@@ -52,7 +52,7 @@ public class Calcu
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Calculadora c1 = new Calculadora();
+		Calcu c1 = new Calcu();
 		System.out.println("Método suma: "+c1.suma(1, 2));
 		System.out.println("Método resta: "+c1.resta(1, 2));
 		System.out.println("Método multiplicacion: "+c1.multiplicacion(1, 2));
