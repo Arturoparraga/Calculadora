@@ -22,4 +22,23 @@ public class Calcu
 		resultado = operando1 - operando2;
 		return resultado;
 	}
+	public float multiplicacion(float operando1, float operando2)
+	{
+		resultado = operando1 * operando2;
+		return resultado;
+	}
+	
+	public float division(float operando1, float operando2)
+	{
+		if(operando2!=0)
+		{
+			resultado = operando1 / operando2;
+			return resultado;
+		}
+		else 
+		{
+			System.out.println("El segundo operando no puede ser 0");
+			return -1;
+		}
+	}
 }
