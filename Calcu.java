@@ -41,4 +41,12 @@ public class Calcu
 			return -1;
 		}
 	}
+	public float raiz_cuadrada(float operando1)
+	{
+		if(operando1>=1)
+		{
+			return (float) Math.sqrt(operando1);
+		}
+		return -1;
+	}
 }
